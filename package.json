@@ -5,10 +5,11 @@
     "nextjs-dynamodb": "bin/nextjs-dynamodb.js"
   },
   "scripts": {
-    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
     "cdk": "cdk",
     "test": "jest",
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.110.0",
