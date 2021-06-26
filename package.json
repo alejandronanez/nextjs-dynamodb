@@ -18,8 +18,10 @@
   "dependencies": {
     "@aws-cdk/aws-dynamodb": "^1.110.0",
     "@aws-cdk/core": "1.110.0",
+    "aws-sdk": "^2.935.0",
     "next": "^11.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
   }
 }
